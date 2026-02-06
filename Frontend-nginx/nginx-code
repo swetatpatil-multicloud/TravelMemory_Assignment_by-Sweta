@@ -1,0 +1,34 @@
+# Final frontend Nginx Config
+server {
+    server_name swetamulticloud.xyz www.swetamulticloud.xyz;
+
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    listen 443 ssl;
+    ssl_certificate /etc/letsencrypt/live/swetamulticloud.xyz/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/swetamulticloud.xyz/SwetaRudy.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_SwetaRudy /etc/letsencrypt/ssl-SwetaRudy.pem;
+}
+
+server {
+    if ($host = www.swetamulticloud.xyz) {
+        return 301 https://$host$request_uri;
+    }
+
+    if ($host = swetamulticloud.xyz) {
+        return 301 https://$host$request_uri;
+    }
+
+    listen 80;
+    server_name swetamulticloud.xyz www.swetamulticloud.xyz;
+    return 404;
+}
