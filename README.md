@@ -1,6 +1,5 @@
 # Travel Memory
 
-# Travel Memory
 Horizontal scalability for both frontend and backend layers
 High availability through health checks and automatic traffic rerouting
 .env file to work with the backend after creating a database in mongodb:
