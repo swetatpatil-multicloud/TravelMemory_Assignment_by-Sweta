@@ -33,8 +33,9 @@ REACT_APP_BACKEND_URL=http://localhost:3001
 
 The Travel Memory application is deployed using a scalable and highly available cloud architecture on Amazon Web Services (AWS). The application follows a three-tier architecture consisting of the presentation layer (frontend), application layer (backend), and data layer (database). The diagram illustrates how user requests flow securely through each component.
 
+<img width="590" height="884" alt="tv1 drawio(2)" src="https://github.com/user-attachments/assets/7db799cc-5bce-4cdf-9fef-13238a979c58" />
 
-<img width="940" height="1131" alt="image" src="https://github.com/user-attachments/assets/a879c517-14c0-43c6-9be8-73a74283f0c9" />
+
 
 ### 1. User (Client Layer)
 The user accesses the Travel Memory application through a web browser using a domain name swetamulticloud.xyz or www.swetamulticloud.xyz.
@@ -124,28 +125,34 @@ Backend servers are not publicly accessible
 Secure database connectivity
 
 ### EC2 Instances:
-<img width="940" height="224" alt="image" src="https://github.com/user-attachments/assets/6827e589-1305-4029-ae02-992299ec1348" />
+<img width="940" height="224" alt="image" src="https://github.com/user-attachments/assets/c89a273d-3c6e-4b23-bc0a-eb333a432a98" />
+
 
 ### Security group:
-<img width="940" height="277" alt="image" src="https://github.com/user-attachments/assets/a9ed904e-951d-4d5c-9c46-13d30be8dd9a" />
+<img width="940" height="277" alt="image" src="https://github.com/user-attachments/assets/e70e6c6c-ccec-4b2d-a943-d91d6145914e" />
+
 
 ### Load Balancer:
-<img width="940" height="399" alt="image" src="https://github.com/user-attachments/assets/c4e7ede8-819e-4c7f-a6cd-79a5a2a71870" />
+<img width="940" height="399" alt="image" src="https://github.com/user-attachments/assets/7a4d2830-5fcd-470b-a0bf-78fb61dd72c8" />
 
 ### Target Group:
-<img width="940" height="437" alt="image" src="https://github.com/user-attachments/assets/79e2d79d-e829-40ba-a62c-621dec65cb86" />
+<img width="940" height="437" alt="image" src="https://github.com/user-attachments/assets/1fcde033-2316-4a2a-9ec0-bf139d9edbf9" />
 
 ### VPC Dashboard:
-<img width="940" height="429" alt="image" src="https://github.com/user-attachments/assets/fbddf623-2981-4724-a88f-576267ddb8ae" />
+<img width="940" height="429" alt="image" src="https://github.com/user-attachments/assets/d73bc5a3-08a6-42a7-9956-e4cb6735e85a" />
+
 
 ### Backend Server Running on Port:3001:
-<img width="940" height="565" alt="image" src="https://github.com/user-attachments/assets/6f31728e-f8a3-4a97-8d0c-38687264588c" />
+<img width="940" height="565" alt="image" src="https://github.com/user-attachments/assets/f80b0d54-4201-413e-b9d7-7c0a36d746ff" />
+
 
 ### npm:
-<img width="940" height="276" alt="image" src="https://github.com/user-attachments/assets/5eb4f998-82d5-4cc0-bccc-455cfbe37126" />
+<img width="940" height="276" alt="image" src="https://github.com/user-attachments/assets/7f29f24f-a0ba-42f5-b38c-b9531fd643ef" />
 
 ### Reverse Proxy:
-<img width="940" height="435" alt="image" src="https://github.com/user-attachments/assets/c841a62c-99f3-49e0-8538-9b6499f62aff" />
+<img width="940" height="435" alt="image" src="https://github.com/user-attachments/assets/3bd729e7-a193-464a-9a48-3b47987c672b" />
+
 
 ### Cloudfare:
-<img width="940" height="460" alt="image" src="https://github.com/user-attachments/assets/ad85aef4-779f-483d-8696-ad49920b2fac" />
+<img width="940" height="460" alt="image" src="https://github.com/user-attachments/assets/42cf626e-713a-4897-b7d4-75c563cc7193" />
+
