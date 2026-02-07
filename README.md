@@ -5,7 +5,7 @@ High availability through health checks and automatic traffic rerouting
 .env file to work with the backend after creating a database in mongodb:
 
 ```
-MONGO_URI='mongodb+srv://Swetatpatil:Rudyredindian2507@Swetapatil.nlqpeax.mongodb.net/?appName=Swetapatil'
+MONGO_URI='mongodb+srv://Swetatpatil:*passowrd@Swetapatil.nlqpeax.mongodb.net/?appName=Swetapatil'
 PORT=3001
 ```
 Data format to be added: 
